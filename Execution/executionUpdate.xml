@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="2" name="WEB_APP">
+  <test name="Command line test 72770f67-8028-4d7a-9bac-8288ab4d7d9e">
+    <parameter name="dataSheet" value="WEB_APP_TD"/>
+    <parameter name="testCaseID" value="TC002"/>
+    <classes>
+      <class name="com.webapp.tests.AllTests">
+        <methods>
+          <include name="RegistrationModule"/>
+        </methods>
+      </class> <!-- com.webapp.tests.AllTests -->
+    </classes>
+  </test> <!-- Command line test 72770f67-8028-4d7a-9bac-8288ab4d7d9e -->
+  <test name="Command line test 22f4b243-2798-403b-a76f-f6bd8e134aad">
+    <parameter name="dataSheet" value="WEB_APP_TD"/>
+    <parameter name="testCaseID" value="TC005"/>
+    <classes>
+      <class name="com.webapp.tests.AllTests">
+        <methods>
+          <include name="RegistrationModule_Inject_UserObject"/>
+        </methods>
+      </class> <!-- com.webapp.tests.AllTests -->
+    </classes>
+  </test> <!-- Command line test 22f4b243-2798-403b-a76f-f6bd8e134aad -->
+  <test name="Command line test 9da1d0f8-00aa-469f-9a0d-4fefc111aa06">
+    <parameter name="dataSheet" value="WEB_APP_TD"/>
+    <parameter name="testCaseID" value="TC006"/>
+    <classes>
+      <class name="com.webapp.tests.AllTests">
+        <methods>
+          <include name="RegistrationModule_FB"/>
+        </methods>
+      </class> <!-- com.webapp.tests.AllTests -->
+    </classes>
+  </test> <!-- Command line test 9da1d0f8-00aa-469f-9a0d-4fefc111aa06 -->
+</suite> <!-- WEB_APP -->
